@@ -1,0 +1,24 @@
+# Ignore dataset archives and large raw data
+data/raw/
+*.tar.gz
+
+# Ignore model weights and large artifacts
+models/
+*.pt
+
+# Ignore outputs and temporary files
+outputs/
+_tmp_upload*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
