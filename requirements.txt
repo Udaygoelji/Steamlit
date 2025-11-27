@@ -1,9 +1,10 @@
-torch==2.0.1
-torchvision==0.15.2
-torchaudio==2.0.2
 numpy
 Pillow
 tqdm
 scikit-learn
 matplotlib
-opencv-python-headless
+opencv-python-headless==4.8.0.74
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu
+torchaudio==2.0.1+cpu
+-f https://download.pytorch.org/whl/cpu
